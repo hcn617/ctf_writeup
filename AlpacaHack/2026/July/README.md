@@ -1,3 +1,3 @@
 # 問題url
 
-https://alpacahack.com/daily/challenges/lucky-redirect?month=2026-07
+https://alpacahack.com/daily?month=2026-07
