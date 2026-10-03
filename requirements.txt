@@ -4,4 +4,4 @@ requests == 2.34.2
 crypto == 1.4.1
 gmpy2 == 2.3.1
 sympy == 1.14.0
-marimo == 0.25.0
+pyautogui==0.9.54
