@@ -16,7 +16,7 @@ if "'" in username or "'" in password:
     return "Do not try SQL injection 🤗", 400
 ```
 
-chatGPTに「mysql8.0で、`''` のエスケープ以外に何かエスケープ処理されるものはありますか？」と質問したところ、`\'` もあると知った。usernameの末尾をバックスラッシュにすれば、`'\' AND password = '` が1つの文字列になって、これがusernameの中にあるかどうかヲ見にいくことになる。
+chatGPTに「mysql8.0で、`''` のエスケープ以外に何かエスケープ処理されるものはありますか？」と質問したところ、`\'` もあると知った。usernameの末尾をバックスラッシュにすれば、`'\' AND password = '` が1つの文字列になって、これがusernameの中にあるかどうかを見にいくことになる。
 
 あとはflagテーブルのvalueカラムにあるフラグをusernameとして取得できればいい。
 
